@@ -10,7 +10,7 @@ module.exports = {
         autoIncrement : true
       },
       nik:{
-        type: Sequelize.STRING,
+        type: Sequelize.BIGINT,
         allowNull: false,
       },
       nama:{
